@@ -3,6 +3,7 @@ import React from 'react';
 import Form from '../Form/Form';
 import Cart from '../Cart/Cart';
 
+import './Main.css';
 
 const USCurrencyFormat = new Intl.NumberFormat('en-US', {
     style: 'currency',

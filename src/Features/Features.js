@@ -1,6 +1,8 @@
 import React from 'react';
 import slugify from 'slugify';
 
+import './Features.css';
+
 class Features extends React.Component{
     render(){ 
         const features = Object.keys(this.props.features).map((feature, idx) => {

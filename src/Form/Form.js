@@ -1,5 +1,6 @@
 import React from 'react';
 import Features from '../Features/Features';
+import './Form.css';
 
 class Form extends React.Component{
     render(){
